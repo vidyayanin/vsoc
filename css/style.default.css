@@ -1007,7 +1007,7 @@ input.text-white::placeholder {
 
 section {
   position: relative;
-  padding: 6.5rem 0;
+  padding: 2rem 0;
 }
 
 .with-pattern-1::before {
