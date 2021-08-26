@@ -1007,13 +1007,10 @@ input.text-white::placeholder {
 
 section {
   position: relative;
-<<<<<<< HEAD
-  padding: 2rem 0;
-=======
   padding:
   2rem 0;
->>>>>>> 59c7911c4d09e20074649b56e74a2c29e2e7cb82
 }
+
 section.about.py-0 {
   margin-top: 9rem;
 }
