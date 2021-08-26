@@ -993,9 +993,51 @@ input.text-white::placeholder {
   width: 64px;
   height: 64px;
 }
+a.scl_btn-1{
+ 
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  padding-left: 2.7rem;
+  list-style: none outside none;
+}
+div.scl_btm{
+  align-items: center;
+}
+
+
+@media screen and (max-width: 360px) {
+  a.scl_btn-1{
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    padding-left: 1.5rem;
+  }
+}
+
+
+
+@media screen and (max-width: 340px) {
+  a.scl_btn-1{
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    padding-left: 1.2rem;
+  }
+}
+
+
+@media screen and (max-width: 340px) {
+  a.scl_btn-1{
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    padding-left: 3.2rem;
+  }
+}
+
 
 /*
-*
 * =====================
 * GENERAL
 * =====================
@@ -1004,7 +1046,8 @@ input.text-white::placeholder {
 .text-small {
   font-size: 0.9rem !important;
 }
-
+p.text-primary.mb-0.text-muted.text-small {
+  text-align: center;}
 section {
   position: relative;
   padding:
@@ -2097,7 +2140,11 @@ h6,
   font-size: 1.25rem;
   font-weight: 300;
 }
+p.lead.text-muted.mb-5 {
+  text-align: center;
+}
 
+.
 .display-1 {
   font-size: 6rem;
   font-weight: 300;
