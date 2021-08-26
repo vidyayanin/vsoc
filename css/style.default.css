@@ -1014,7 +1014,9 @@ section {
   2rem 0;
 >>>>>>> 59c7911c4d09e20074649b56e74a2c29e2e7cb82
 }
-
+section.about.py-0 {
+  margin-top: 9rem;
+}
 .with-pattern-1::before {
   content: '';
   position: absolute;
