@@ -3126,3 +3126,10 @@ code {
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #6c757d;
 }
+
+
+
+.cardvip{
+  margin: auto;
+  width: 70%;
+}
