@@ -1052,11 +1052,12 @@ section {
   position: relative;
   padding:
   2rem 0;
+  margin-top: 3rem;
 }
 
-section.about.py-0 {
+/* section.about.py-0 {
   margin-top: 9rem;
-}
+} */
 .with-pattern-1::before {
   content: '';
   position: absolute;
