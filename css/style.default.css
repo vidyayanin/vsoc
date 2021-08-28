@@ -993,9 +993,51 @@ input.text-white::placeholder {
   width: 64px;
   height: 64px;
 }
+a.scl_btn-1{
+ 
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  padding-left: 2.7rem;
+  list-style: none outside none;
+}
+div.scl_btm{
+  align-items: center;
+}
+
+
+@media screen and (max-width: 360px) {
+  a.scl_btn-1{
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    padding-left: 1.5rem;
+  }
+}
+
+
+
+@media screen and (max-width: 340px) {
+  a.scl_btn-1{
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    padding-left: 1.2rem;
+  }
+}
+
+
+@media screen and (max-width: 340px) {
+  a.scl_btn-1{
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    padding-left: 3.2rem;
+  }
+}
+
 
 /*
-*
 * =====================
 * GENERAL
 * =====================
@@ -1004,17 +1046,17 @@ input.text-white::placeholder {
 .text-small {
   font-size: 0.9rem !important;
 }
-
+p.text-primary.mb-0.text-muted.text-small {
+  text-align: center;}
 section {
   position: relative;
-<<<<<<< HEAD
-  padding: 2rem 0;
-=======
   padding:
   2rem 0;
->>>>>>> 59c7911c4d09e20074649b56e74a2c29e2e7cb82
 }
 
+section.about.py-0 {
+  margin-top: 9rem;
+}
 .with-pattern-1::before {
   content: '';
   position: absolute;
@@ -2098,7 +2140,11 @@ h6,
   font-size: 1.25rem;
   font-weight: 300;
 }
+p.lead.text-muted.mb-5 {
+  text-align: center;
+}
 
+.
 .display-1 {
   font-size: 6rem;
   font-weight: 300;
@@ -3079,4 +3125,11 @@ code {
 
 .dropdown-item.disabled, .dropdown-item:disabled {
   color: #6c757d;
+}
+
+
+
+.cardvip{
+  margin: auto;
+  width: 70%;
 }
