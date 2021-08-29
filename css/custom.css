@@ -87,3 +87,13 @@
     line-height: 30px;
     color: #222;
   }
+
+
+
+
+  @media screen and (min-width: 1250px) {
+    ul.scl_link_btn{
+      margin-left: 30px;
+      padding-left:45px ;
+    }
+}
