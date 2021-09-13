@@ -2078,15 +2078,21 @@ body {
 }
 
 a {
-  color: #5954cb;
+  color: #f17c1d;
   text-decoration: none;
 }
-
+a#anchor {
+  color: #f17c1d;
+  text-decoration: none;
+}
 a:hover, a:focus {
   color: #f17c1d;
   text-decoration: underline;
 }
-
+a#anchor:hover, a:focus {
+  color: #fff;
+  text-decoration: underline;
+}
 h1,
 h2,
 h3,
@@ -2145,7 +2151,7 @@ p.lead.text-muted.mb-5 {
   text-align: center;
 }
 
-.
+
 .display-1 {
   font-size: 6rem;
   font-weight: 300;
